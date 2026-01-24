@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -eu
+
 TIMESTAMP=$(date +%Y-%m-%d_%H:%M)
 TEMPERATURE=$(cat /sys/bus/w1/devices/w1_bus_master1/28-0000005b67ce/temperature)
 
