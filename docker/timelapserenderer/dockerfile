@@ -1,0 +1,13 @@
+FROM debian:bookworm-slim
+
+WORKDIR /
+
+ENV TZ=America/Los_Angeles
+
+RUN apt update && apt install -y ffmpeg
+
+COPY timelapse_render.sh .
+
+CMD ["sh","timelapse_render.sh"]
+
+
