@@ -4,7 +4,7 @@ set -eu
 
 TIMESTAMP=$(date +%Y-%m-%d_%H:%M)
 
-SOILMOISTURE=$(python3 /projects/musical-plants/scripts/python/soilmoisture_ingest.py)
+SOILMOISTURE=$(/projects/musical-plants/venv/bin/python3 /projects/musical-plants/scripts/python/soilmoisture_ingest.py)
 
 DATE=$(date +%Y-%m-%d)
 
