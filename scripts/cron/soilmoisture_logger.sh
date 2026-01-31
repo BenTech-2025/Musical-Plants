@@ -6,4 +6,6 @@ TIMESTAMP=$(date +%Y-%m-%d_%H:%M)
 
 SOILMOISTURE=$(python3 /projects/musical-plants/scripts/python/soilmoisture_ingest.py)
 
-echo "$TIMESTAMP,$SOILMOISTURE" >> /projects/musical-plants/data/moisture.csv
+DATE=$(date +%Y-%m-%d)
+
+echo "$TIMESTAMP,$SOILMOISTURE" >> "/projects/musical-plants/data/$DATE/moisture_$DATE.csv"
