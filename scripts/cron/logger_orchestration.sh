@@ -1,6 +1,8 @@
 #!/bin/bash
 set -eu
 
+sleep 5
+
 /projects/musical-plants/scripts/cron/temperature_logger.sh
 sleep 5
 
