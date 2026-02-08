@@ -3,3 +3,20 @@ venv/
 
 # Ignore randomely generated file
 .lgd-nfy0
+
+#Ignore most video files
+videos/2026-02-03/
+videos/2026-02-04/
+videos/2026-02-05/
+videos/2026-02-06/
+videos/2026-02-08/
+
+#Ignore most photo files
+images/2026-02-03/
+images/2026-02-04/
+images/2026-02-05/
+images/2026-02-06/
+images/2026-02-08/
+
+
+
