@@ -25,7 +25,7 @@ MOISTURE=$(/projects/musical-plants/venv/bin/python3 /projects/musical-plants/sc
     rpicam-still --nopreview --timeout 1000 \
     -o "/projects/musical-plants/images/$DATE/plant_"$MONTHDAY"_$(printf '%04d' "$i").jpg" \
     --awb indoor \
-    --gain 1.0 \
+    --gain 2.0 \
     --shutter 16667 \
     --width 4606 \
     --height 2590 && \
