@@ -1,1 +1,4 @@
 #Logs days in which classical music was played during the day
+2026-02-03-Tuesday
+2026-02-05-Thursday
+2026-02-07-Saturday
