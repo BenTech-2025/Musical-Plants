@@ -86,7 +86,7 @@ The system generates outputs such as:
 
 <img width="1000" height="600" alt="humidity_graph_2026-02-05" src="https://github.com/user-attachments/assets/ec5934e1-d249-4bb5-bd00-2c285682567f" />
 
-![plant_02-05_0000](https://github.com/user-attachments/assets/43f081d6-a8a4-4704-ab14-f9d61f2805ed)
+![plant_02-03_0001](https://github.com/user-attachments/assets/01554f28-12f1-40fa-8e2c-bbbbb43cdec7)
 
 https://github.com/user-attachments/assets/bd812824-9c31-4123-9d75-176fadbe69f6
 
